@@ -1,3 +1,16 @@
+'''
+Nombre: Daniel Felipe Villa
+
+Lenguaje: Python
+
+Tema: Programación Orientada a Objetos. Clases, Objetos(instancias), método constructor (init()).
+
+Fuentes Consultadas:
+https://j2logo.com/python/tutorial/programacion-orientada-a-objetos/
+
+https://www.w3schools.com/python/python_classes.asp
+'''
+
 # Clases:
 print('# Clases:')
 ## Definimos una clase:
@@ -10,14 +23,26 @@ que se está creando una clase
 seguida del nombre de la clase (Can en este caso).
 '''
 print('<class Insect>')
-class Insect: # <- can de Caninio
+class Insect:
+  '''
+   # Insect de insecto
+   Esta clase es un ejemplo
+   No contiene objetos
+  '''
   pass
 
 ## Volvamos con class Can:
 
 class Insect:
+  '''
   # Una clase simple
   ## Atributo (Tienen...):
+  La clase Insect
+  contiene dos atributos:
+  Alas y Son pequeños
+  con el metodo imprime:
+  los atributos Uno y Dos
+  '''
   a1 = 'Alas'
   a2 = 'Pequeños'
 
@@ -57,13 +82,19 @@ el estudiante definido en class
 '''
 
 class Estudiante:
+  '''
+  Esta Clase se llama Estudiante
+  tiene un metodo constructor donde define
+  que carrera estudia el estudiante
+  por ultimo imprime "La carrera que estudio es"
+  '''
   # método init o constructor:
   def __init__(self, carrera):
     self.carrera = carrera
 
   # Definimos un metod simple:
   def what_study(self):
-    print('Mi carrera que estoy estudiando es ', self.carrera)
+    print("La carrera que estudio es: ", self.carrera)
 
 'Aqui le damos el valor a "e", que el estudiante cursa la carrera de estadistica'
 e = Estudiante('Estadística')

@@ -1,5 +1,4 @@
 # Programación Orientada a Objetos (OOP) en Python:
-
 Reto de Hoy en:
 
 > Programación Orientada a Objetos. Clases, Objetos(instancias),  método constructor (__init__()).
