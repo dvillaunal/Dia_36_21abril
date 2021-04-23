@@ -108,8 +108,18 @@ print('\n# Clases e Instancias:')
 print('\n## Creamos la clase Boligrafo:')
 print('\nclass Boligrafo:')
 
-class Boligrafo:
-  def __init__(self, tinta, retractil): # Definimos los atributos tinta y retractil.
+class Boligrafo: # Definimos los atributos tinta y retractil.
+  '''
+  Define una clase donde el boligrafo tiene dos metodos
+  a definir por el usuario
+  el color de la tinta y si es o no retractil.
+  '''
+  def __init__(self, tinta, retractil):
+    '''
+    es un metodo constructor, donde define
+    dos atributos: color de la tinta (str)
+    si es retractil (Bool)
+    '''
     self.tinta = tinta # Definimos el atributo tinta, sera el color que contiene el boligrafo
     self.retractil = retractil # Definimos el atributo Retractil, sera True si es un lapicero, donde la mina se guarda, False en caso contrario
 
